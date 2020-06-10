@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>gulp-scss-starter</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-wrapper">
+            <a class="header-wrapper__logo" href="#">
+                <img src="img/logo.png" alt="Logo">
+                <span class="header-wrapper__logo-title">tajam</span>
+            </a>
+            <i data-toggle="modal" data-target="#menuModal" class="fas fa-bars"></i>
+            <div class="header-wrapper__navbar">
+                <ul class="header-wrapper__navbar-ul">
+                    <li class="active">home</li>
+                    <li>about</li>
+                    <li>expertise</li>
+                    <li>teams</li>
+                    <li>works</li>
+                    <li>people say</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>
+<section class="header-bg__image">
+    <div class="header-bg__image-overlay"></div>
+    <div class="header-bg__table">
+        <div class="header-bg__table-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="text-center header-content mx-auto">
+                            <div class="header-bg__table-title">
+                                We Are Awesome Creative Agency
+                                <hr>
+                            </div>
+                            <div class="row header-bg__table-description-wrapper">
+                                <div class="col-md-10 offset-md-1">
+                                    <div class="header-bg__table-description">
+                                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-success">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 offset-md-1">
+                <img class="card-img" src="img/logo2.png" alt="">
+            </div>
+            <div class="col-md-7 offset-md-1">
+                <div class="section-bg-white__description">
+                    <div class="section-bg-white__description-title">
+                        our story
+                    </div>
+                    <div class="section-bg-white__description-text">
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+                    </div>
+                    <div class="section-bg-white__description-text" >Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.i</div>
+                    <button type="button" class="btn btn-outline-success">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-bg__video">
+    <div class="section-bg__video-overlay"></div>
+    <div class="section-bg__video-play" data-toggle="modal" data-target="#trueDetectiveModal">
+        <img src="img/play.png" alt="">
+        <div class="section-bg__video-play-description">watch our story</div>
+    </div>
+
+</section>
+<section class="section-expertise">
+    <div class="container">
+        <div class="section-expertise__header">
+            <div class="section-expertise__title">
+                expertise
+            </div>
+            <div class="section-expertise__description">
+                Lorem ipsum dolor sit amet proin gravida nibh vel velit
+            </div>
+            <hr>
+        </div>
+        <div class="row section-expertise__body">
+            <div class="col-md-4">
+                <div class="section-expertise__wrapper">
+                    <div class="section-expertise__wrapper-item">
+                        <img src="img/icon1.png" alt="">
+                        <div class="section-expertise__item-title">
+                            WEB DESIGN & DEVELOPMENT
+                        </div>
+                        <div class="section-expertise__item-description">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-expertise__wrapper">
+                    <div class="section-expertise__wrapper-item">
+                        <img src="img/icon2.png" alt="">
+                        <div class="section-expertise__item-title">
+                            WEB DESIGN & DEVELOPMENT
+                        </div>
+                        <div class="section-expertise__item-description">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-expertise__wrapper">
+                    <div class="section-expertise__wrapper-item">
+                        <img src="img/icon3.png" alt="">
+                        <div class="section-expertise__item-title">
+                            WEB DESIGN & DEVELOPMENT
+                        </div>
+                        <div class="section-expertise__item-description">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-expertise__wrapper">
+                    <div class="section-expertise__wrapper-item">
+                        <img src="img/icon4.png" alt="">
+                        <div class="section-expertise__item-title">
+                            WEB DESIGN & DEVELOPMENT
+                        </div>
+                        <div class="section-expertise__item-description">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-expertise__wrapper">
+                    <div class="section-expertise__wrapper-item">
+                        <img src="img/icon5.png" alt="">
+                        <div class="section-expertise__item-title">
+                            WEB DESIGN & DEVELOPMENT
+                        </div>
+                        <div class="section-expertise__item-description">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-expertise__wrapper">
+                    <div class="section-expertise__wrapper-item">
+                        <img src="img/icon6.png" alt="">
+                        <div class="section-expertise__item-title">
+                            WEB DESIGN & DEVELOPMENT
+                        </div>
+                        <div class="section-expertise__item-description">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-team__image">
+    <div class="section-team__image-overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="text-center header-content mx-auto">
+                    <div class="section-team__header">
+                        <div class="section-team__header-title">
+                            meet our amazing team
+                        </div>
+                        <div class="section-team__header-description">
+                            Lorem ipsum dolor sit amet proin gravida nibh vel velit
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-team__body">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="section-team__body-card">
+                        <div class="section-team__body-card-image"></div>
+                        <div class="section-team__body-card-footer">
+                            <div class="section-team__body-card-title">semf ucuk</div>
+                            <div class="section-team__body-card-description">
+                                CEO & FOUNDER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="section-team__body-card">
+                        <div class="section-team__body-card-image"></div>
+                        <div class="section-team__body-card-footer">
+                            <div class="section-team__body-card-title">semf ucuk</div>
+                            <div class="section-team__body-card-description">
+                                CEO & FOUNDER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="section-team__body-card">
+                        <div class="section-team__body-card-image"></div>
+                        <div class="section-team__body-card-footer">
+                            <div class="section-team__body-card-title">semf ucuk</div>
+                            <div class="section-team__body-card-description">
+                                CEO & FOUNDER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="section-team__body-card">
+                        <div class="section-team__body-card-image"></div>
+                        <div class="section-team__body-card-footer">
+                            <div class="section-team__body-card-title">semf ucuk</div>
+                            <div class="section-team__body-card-description">
+                                CEO & FOUNDER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="text-center header-content mx-auto">
+                    <div class="section-team__footer--description">Become part of our dream team, let’s join us !</div>
+                    <button type="button" class="btn btn-outline-success">we are hiring</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="section-works">
+    <div class="container">
+        <div class="section-works__header">
+            <div class="section-works__header--title">our works</div>
+            <div class="section-works__header--viewall">
+                See All Project in dribbble
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="section-works__body">
+        <div class="section-works__body--item">
+            <img src="img/top1.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/top2.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/top3.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/top4.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/top5.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/top6.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/bot1.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/bot2.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/bot3.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/bot4.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/bot5.jpg" alt="">
+        </div>
+        <div class="section-works__body--item">
+            <img src="img/bot6.jpg" alt="">
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="section-works__footer">
+        <button type="button" class="btn btn-outline-success">Load more</button>
+    </div>
+
+</section>
+<section class="section-reviews">
+    <div class="header-bg__image-overlay"></div>
+    <div class="section-reviews__header">
+        “
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="text-center header-content mx-auto">
+                    <div class="section-reviews__body">
+                        <div data-src="1" class="section-reviews__body-item active">
+                            <div class="section-reviews__body--review">
+                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+
+                            </div>
+                            <div class="section-reviews__body--author">
+                                jane galadriel
+                            </div>
+                            <div class="section-reviews__body--works">
+                                CEO TENGKUREP
+                            </div>
+                        </div>
+                        <div data-src="2" class="section-reviews__body-item">
+                            <div class="section-reviews__body--review">
+                                secondd
+                            </div>
+                            <div class="section-reviews__body--author">
+                                jane galadriel
+                            </div>
+                            <div class="section-reviews__body--works">
+                                CEO TENGKUREP
+                            </div>
+                        </div>
+                        <div data-src="3" class="section-reviews__body-item">
+                            <div class="section-reviews__body--review">
+                                third
+                            </div>
+                            <div class="section-reviews__body--author">
+                                jane galadriel
+                            </div>
+                            <div class="section-reviews__body--works">
+                                CEO TENGKUREP
+                            </div>
+                        </div>
+                        <div data-src="4" class="section-reviews__body-item">
+                            <div class="section-reviews__body--review">
+                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aene
+
+                            </div>
+                            <div class="section-reviews__body--author">
+                                jane galadriel
+                            </div>
+                            <div class="section-reviews__body--works">
+                                CEO TENGKUREP
+                            </div>
+                        </div>
+                        <div data-src="5" class="section-reviews__body-item">
+                            <div class="section-reviews__body--review">
+                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                            </div>
+                            <div class="section-reviews__body--author">
+                                jane galadriel
+                            </div>
+                            <div class="section-reviews__body--works">
+                                CEO TENGKUREP
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-reviews__footer">
+                        <div data-target="1" class="section-reviews__footer--face">
+                            <img src="img/face1.png" alt="">
+                        </div>
+                        <div data-target="2" class="section-reviews__footer--face">
+                            <img src="img/face2.png" alt="">
+                        </div>
+                        <div data-target="3" class="section-reviews__footer--face active">
+                            <img src="img/face3.png" alt="">
+                        </div>
+                        <div data-target="4" class="section-reviews__footer--face">
+                            <img src="img/face4.png" alt="">
+                        </div>
+                        <div data-target="5" class="section-reviews__footer--face">
+                            <img src="img/face5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-form">
+    <div class="container">
+        <div class="section-form__header">
+            GIVE US A GOOD NEWS
+        </div>
+        <div class="section-form__body">
+            <form action="#">
+                <div class="group-control">
+                    <input placeholder="Name" type="text">
+                </div>
+                <div class="group-control">
+                    <input placeholder="Email" type="text">
+                </div>
+                <div class="group-control">
+                    <input placeholder="Subject" type="text">
+                </div>
+                <div class="group-control">
+                    <textarea placeholder="Your message" name="ds" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-success">submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="header-bg__image-overlay"></div>
+    <div class="container footer-wrapper">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" class="footer-wrapper__logo">
+                    <img src="img/logo.png" alt="Logo">
+                    <span>tajam</span>
+                </a>
+                <div class="footer-wrapper__description">
+                    lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer--wrapper__studio">
+                    <div class="footer-wrapper__studio--header">
+                        our studio
+                    </div>
+                    <div class="footer-wrapper__studio--body">
+                        <div class="footer-wrapper__studio--body--item">
+                            <div class="row">
+                                <div class="col-md-1 col-1 pr-0">
+                                    <img src="img/placeicon.png" alt="">
+                                </div>
+                                <div class="col-md-11 col-11">
+                                    <span>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+                                    11480 - Indonesia</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-wrapper__studio--body--item">
+                            <div class="row">
+                                <div class="col-md-1 col-1 pr-0">
+                                    <img src="img/telicon.png" alt="">
+                                </div>
+                                <div class="col-md-11 col-11">
+                                    <span>(+62) 21-2224 3333</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer--wrapper__studio">
+                    <div class="footer-wrapper__studio--header">
+                        stay in touch
+                    </div>
+                    <div class="">
+                        <form class="footer--wrapper__studio--form" action="#">
+                            <div class="group-control">
+                                <input class="footer--wrapper__studio--form--input" placeholder="Subscribe our newsletter" type="text">
+                                <button class="footer--wrapper__studio--form--button" type="submit">
+                                    <img src="img/telegram.png" alt="">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="footer-wrapper__studio--social">
+                        <img src="img/facebook.webp" alt="">
+                        <img src="img/twitter.webp" alt="">
+                        <img src="img/dribbble.webp" alt="">
+                        <img src="img/instagram.webp" alt="">
+                        <img src="img/gplus.webp" alt="">
+                        <img src="img/youtube.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wrapper--footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-wrapper--footer__links">
+                        <ul>
+                            <li>help</li>
+                            <li>terms & condition</li>
+                            <li>privacy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-4">
+                    <div class="footer-wrapper--footer__copy">Copyright © 2015 - Tajem Creative</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal fade" id="trueDetectiveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe class="true-detective-iframe" width="560" height="315" src="https://www.youtube.com/embed/KvUgaHTNit4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile-menu">
+    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="header-wrapper__mobile--navbar">
+                        <ul class="header-wrapper__mobile--navbar-ul">
+                            <li class="active">home</li>
+                            <li>about</li>
+                            <li>expertise</li>
+                            <li>teams</li>
+                            <li>works</li>
+                            <li>people say</li>
+                            <li>contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vendor.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+<script>
+    $(function () {
+        $('header').on('click', function(){
+            console.log('11');
+        });
+    })
+    $(window).scroll(function() {
+        var height = $(window).scrollTop();
+        if(height > 100){
+            $('header').addClass('header-fixed');
+        } else{
+            $('header').removeClass('header-fixed');
+        }
+
+    });
+    $(function () {
+        $('.section-reviews__footer--face').on('click', function () {
+            $('.section-reviews__footer--face').each(function(){
+                $(this).removeClass('active');
+            });
+            $(this).addClass('active');
+            var target = $(this).data('target');
+            console.log('target is', target);
+            $('.section-reviews__body-item').each(function () {
+                var src = $(this).data('src');
+                console.log('src is ', src);
+                if (target == src){
+                    $(this).addClass('active');
+                }
+                else{
+                    $(this).removeClass('active');
+                }
+            });
+        });
+    });
+</script>
+<script>
+</script>
+</body>
+</html>
